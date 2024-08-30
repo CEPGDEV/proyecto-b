@@ -1,0 +1,80 @@
+
+body{
+    background: #fae1dd;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    width: 100vw;
+    
+    height: 100vh;
+    font-size: 30px;
+}
+header #best{
+    z-index: 10;
+    position: absolute;
+    color: #f9db5c;
+    -webkit-text-stroke: 1.5px #101720;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    
+}
+header .boda{
+    margin: auto;
+    z-index: 10;
+    color: #f9db5c;
+    -webkit-text-stroke: 1.5px #101720;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+header #back{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+#countdown{
+    margin: 0px;
+    background-color: #B5DCDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+}
+
+#countdown .numeros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#countdown .numeros div{
+    background-color: #8C9DAD;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#countdown .numeros div #nr{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#countdown .numeros div h1{
+    color: #E8E5DE;
+    margin-top: 0px;
+}
