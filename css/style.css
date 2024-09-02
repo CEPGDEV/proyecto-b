@@ -1,0 +1,232 @@
+
+body{
+    background: #fae1dd;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    width: 100vw;
+    
+    height: 100vh;
+    font-size: 30px;
+}
+header #best{
+    z-index: 10;
+    position: absolute;
+    color: #f9db5c;
+    -webkit-text-stroke: 1.5px #101720;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    
+}
+header .boda{
+    margin: auto;
+    z-index: 10;
+    color: #f9db5c;
+    -webkit-text-stroke: 1.5px #101720;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+header #back{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+#countdown{
+    margin: 0px;
+    background-color: #B5DCDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#countdown .numeros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 35px;
+}
+#countdown .numeros div{
+    background-color: #8C9DAD;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#countdown .numeros div #nr{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#countdown .numeros div h1{
+    color: #E8E5DE;
+    margin-top: 0px;
+}
+
+#nyn{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+}
+#nyn #info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nyn #info .n p{
+    margin: 0px;
+}
+#nyn #info img{
+    width: 400px;
+    height: 400px;
+}
+#misa{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+}
+#misa .tm{
+    display: flex;
+    align-items: center;
+}
+#misa .tm h1{
+    margin: 0px;
+}
+#misa .tm img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+#misa .cm{
+    display: flex;
+}
+#misa .cm .cmt{
+    margin: 10px;
+}
+#misa .cm .cmt a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #101720;
+    padding: 13px 50px ;
+    border: 1px solid var(--oro);
+    border-radius: 25px;
+    color: var(--oro);
+    text-decoration: none;
+    transition: 0.5s;
+}
+#misa .cm .cmt a:hover{
+    font-size: 50px;
+    transition: 0.5s;
+    background-color: var(--oro);
+    color: var(--dark);
+    box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
+    -webkit-box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
+    -moz-box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
+}
+#misa .cm img{
+    border-radius: 50px;
+    width: 320px;
+    height: 320px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#fiesta{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+}
+#fiesta .tf{
+    display: flex;
+    align-items: center;
+}
+#fiesta .tf h1{
+    margin: 0px;
+}
+#fiesta .tf img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+#fiesta .cf{
+    display: flex;
+}
+#fiesta .cf .cft{
+    margin: 10px;
+}
+#fiesta .cf .cft a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #101720;
+    padding: 13px 50px ;
+    border: 1px solid var(--oro);
+    border-radius: 25px;
+    color: var(--oro);
+    text-decoration: none;
+    transition: 0.5s;
+}
+#fiesta .cf .cft a:hover{
+    font-size: 50px;
+    transition: 0.5s;
+    background-color: var(--oro);
+    color: var(--dark);
+    box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
+    -webkit-box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
+    -moz-box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
+}
+#fiesta .cf img{
+    border-radius: 50px;
+    width: 320px;
+    height: 320px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#regalos{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: 1000px;
+    padding: 50px 0 0 0;
+    background: rgb(173,181,189);
+    background: linear-gradient(180deg, rgba(173,181,189,1) 33%, rgba(108,117,125,1) 66%, rgba(73,80,87,1) 100%);
+}
+.containeregalos{
+    margin: 40px;
+    padding: 0;
+    width: 900px;
+    height: 90%;
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 40px;
+    font-size: 14px;
+    position: relative;
+}
