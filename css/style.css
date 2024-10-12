@@ -350,7 +350,7 @@ background: linear-gradient(180deg, rgba(182,150,85,1) 22%, rgba(209,174,90,1) 5
         font-size: 70px;   
     }
     header #uno{
-        margin: auto;
+        margin-top: auto;
     }
     header #dos{
         margin-top: 300px;
