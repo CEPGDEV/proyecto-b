@@ -1,4 +1,4 @@
-const fecha = new Date('Oct 18, 2024 17:00:00').getTime();
+const fecha = new Date('Oct 26, 2024 17:00:00').getTime();
 let interval = setInterval(function(){
     const now = new Date().getTime();
     let distance = fecha-now;

@@ -15,14 +15,14 @@
     width: 900px;
     padding: 150px 0 100px 0;
     height: 100%;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .swiper .swiper-slide{
     width: 200px;
-    height: 400px;
-    background-color: var(--dark);
-    box-shadow: 0 0 20px rgba(212, 175, 55, 1);
+    height: 500px;
+    background-color: var(--ecru);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.658);
     padding: 20px 40px 5px 40px;
     text-align: center;
     margin-top: 10px;
@@ -52,7 +52,7 @@
 }
 .news-txt h2{
     font-size: 20px;
-    color: var(--silver);
+    color: var(--eerie-black);
     text-transform: uppercase;
 }
 .news-content {
@@ -64,13 +64,14 @@
 }
 .news-img img{
     width: 150px;
+    border-radius: 50%;
 }
 .btn-1{
     display: inline-block;
     padding: 13px 40px ;
-    border: 1px solid var(--oro);
+    border: 1px solid var(--eerie-black);
     border-radius: 25px;
-    color: var(--oro);
+    color: var(--eerie-black);
     text-decoration: none;
     margin-top: 30px;
     transition: 0.5s;
@@ -80,8 +81,8 @@
 .btn-1:hover{
     font-size: 18px;
     transition: 0.5s;
-    background-color: var(--oro);
-    color: var(--dark);
+    background-color: var(--eerie-black);
+    color: var(--vanilla);
     box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
     -webkit-box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
     -moz-box-shadow: 11px 13px 5px 1px rgba(3,12,36,0.87);
