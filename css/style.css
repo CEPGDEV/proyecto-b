@@ -347,7 +347,7 @@ background: linear-gradient(180deg, rgba(182,150,85,1) 22%, rgba(209,174,90,1) 5
 
 @media screen and (max-width: 500px) {
     header #best{
-        font-size: 95px;   
+        font-size: 70px;   
     }
     header #uno{
         margin: auto;
